@@ -1,0 +1,438 @@
+/* global */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 13px;
+	text-align: center;
+	font-family: "poppins";
+	background: #272729;
+	scroll-behavior: smooth;
+}
+
+/* endGlobal */
+
+
+
+
+
+
+/* NAV */
+.navbar{
+    position: relative;
+    z-index: 1;
+	color: #acacac;
+}
+
+
+.navbar-brand{
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.navbar-nav{
+	font-size: 16px ;
+	font-weight: 700;
+}
+
+
+/* end NAV */
+
+
+/* utility */
+.btn-new{
+
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: rgba(7, 5, 5, 0.979);
+    font-weight: 500;
+    font-family: poppins;
+    color: white;
+}
+
+.btn-new:hover{
+    background-color: rgb(167, 167, 167);
+}
+
+.btn-new2{
+	margin-left: 10px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background-color: #646464;
+    font-weight: 500;
+    font-family: poppins;
+    color: rgba(218, 218, 218, 0.979);
+}
+
+.btn-new2:hover{
+    background-color: rgb(8, 6, 6);
+	color: rgba(218, 218, 218, 0.979);
+}
+
+/* Banner*/
+
+.herotron{
+    margin-top: 125px;
+    text-align: center;
+    padding-bottom: 100px;
+	
+}
+
+
+.herotron h1{
+    font-family: "poppins";
+    font-weight: 400;
+	color: #eeecec;
+}
+
+.herotron p{
+    font-family: "poppins";
+    font-weight: 300 ;
+}
+
+
+.herotron .name{
+	color: #eeecec;
+    font-weight: 200;
+    font-family: poppins;
+    text-shadow:1px 1px 1px rgb(110, 110, 110) !important; 
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+
+.herotron img{
+    margin-bottom: 30px;
+	padding: 45px;
+    
+}
+
+
+.herotron span{
+	font-weight:900;
+
+}
+.herotron h3{
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: 200;
+	color: #eeecec;
+}
+
+.herotron span{
+    font-weight: 400;
+}
+
+.herotron p{
+    font-size: 18px;
+    color: #acacac;
+
+}
+
+/* endBanner */
+
+/* About */
+.about{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 75px;
+	
+}
+
+
+.about h1{
+    font-family: "poppins";
+    font-weight: 400;
+	color: #eeecec;
+}
+
+.about p{
+	
+    font-family: "poppins";
+    font-weight: 300 ;
+    
+}
+
+
+
+.about .name{
+	color: #eeecec;
+    font-weight: 700;
+    font-family: poppins;
+    text-shadow:1px 1px 1px rgb(110, 110, 110) !important; 
+    font-size: 52px;
+    margin-bottom: 10px;
+	
+}
+
+.about img{
+    margin-bottom: 30px;
+	
+	padding: 45px;
+    
+}
+
+
+.about span{
+	font-weight:900;
+
+}
+.about h3{
+    font-size: 25px;
+    font-weight: 200;
+	color: #eeecec;
+}
+
+.about span{
+    font-weight: 400;
+}
+
+.about p{
+    font-size: 18px;
+    color: #acacac;
+	border-bottom: white;
+
+}
+
+
+.progress{
+	background-color: grey;
+	justify-content: flex-start;
+	border-radius: 50px;
+	align-items: center;
+	position: relative;
+	display: flex;
+	height: 25px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.pro-value1{
+	animation: load1 3s normal forwards;
+	border-radius: 50px;
+	align-items: center;
+	position: absolute;
+	background-color: black;
+	height: 25px;
+	width: 0;
+}
+
+.pro-value2{
+	animation: load2 3s normal forwards;
+	border-radius: 50px;
+	align-items: center;
+	position: absolute;
+	background-color: black;
+	height: 25px;
+	width: 0;
+}
+
+.pro-value3{
+	animation: load3 3s normal forwards;
+	border-radius: 50px;
+	align-items: center;
+	position: absolute;
+	background-color: black;
+	height: 25px;
+	width: 0;
+}
+.progress p{
+	color: white;
+	align-items: center;
+	padding: 12px;
+}
+
+@keyframes load1{
+	0%{
+		width: 0;
+
+	}
+
+	100%{
+		width: 95%;
+	}
+}
+
+@keyframes load2{
+	0%{
+		width: 0;
+
+	}
+
+	100%{
+		width: 75%;
+	}
+}
+
+@keyframes load3{
+	0%{
+		width: 0;
+
+	}
+
+	100%{
+		width: 75%;
+	}
+}
+/* endAbout */
+
+
+
+/* SERVICES */
+
+.services h1{
+	color: white;
+	margin-bottom: 100px;
+}
+
+.services h4{
+	color: black;
+}
+
+.card{
+	border: none;
+	outline: none;
+	color: white;
+	box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+	
+}
+
+.card p{
+	color:black;
+	
+}
+
+
+
+.circle{
+	
+	height: 70px;
+	width: 70px;
+	background-color: grey;
+	color: black;
+	padding: 12px;
+	font-size: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 20px;
+	align-items: center;
+	
+}
+
+.card:hover .circle{
+	background-color: black;
+	color: white;
+	transition: 0.5s;
+}
+/* endSERVICES */
+
+
+/* PORTOFOLIO */
+.control ul li{
+
+	list-style: none;
+	background-color: white;
+	display: inline-block;
+	cursor: pointer;
+	letter-spacing: 2px;
+	padding: 5px 15px;
+}
+
+.item{
+	position: relative;
+
+}
+
+.item span{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	font-size: 40px;
+	color: white;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.item:hover{
+	-webkit-box-shadow: -18px 3px 109px -65px rgba(255, 255, 255, 0.75);
+	-moz-box-shadow: -18px 3px 109px -65px rgba(255, 255, 255, 0.75);
+	box-shadow: -18px 3px 109px -65px rgba(255, 255, 255, 0.75);
+	transition: 0.5s;
+	
+ }
+
+.item:hover span{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.item::before{
+	content: "";
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(218, 218, 218, 0.3);
+	opacity: 0;
+	position: absolute;
+}
+
+.item:hover::before{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+
+/* endPORTOFOLIO */
+
+
+/* CAROUSEL */
+.carousel {
+    text-align: center;
+}
+/* endCAROUSEL */
+
+
+/* DESKTOP */
+@media (min-width: 992px) { 
+
+
+
+    .navbar-brand, .nav-link{
+        color: white !important;
+        text-shadow:1px 1px 1px rgb(110, 110, 110) !important; 
+
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+        font-weight:500;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid rgba(221, 63, 160, 0.932);
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .herotron{
+        text-align: left;
+    }
+
+	.about{
+		text-align: left;
+	}
+
+ }
