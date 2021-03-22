@@ -24,7 +24,7 @@ body{
 
 .navbar-brand{
     font-family: poppins;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -429,7 +429,7 @@ textarea.contact-form-text{
 
     .nav-link{
         text-transform: uppercase;
-        margin-right: 30px;
+    
         font-weight:500;
     }
 
